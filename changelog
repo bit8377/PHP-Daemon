@@ -1,4 +1,5 @@
 Non-Backwards Compatible Changes:
+
 (If upgrading from 1.x or 2.0, you will need to apply these changes)
 - Remove any calls to Daemon::setFilename(). The filename is now determined programmatically.
 - Replace any calls to Daemon::filename() with Daemon::get('filename')
